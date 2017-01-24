@@ -6,7 +6,8 @@
 ## Use this data to find the time that the datasharing repo 
 ##was created. What time was it created?
 ## This tutorial may be useful 
-## (https://github.com/hadley/httr/blob/master/demo/oauth2-github.r). You may also need to run the code in the base R package and not R studio.
+## (https://github.com/hadley/httr/blob/master/demo/oauth2-github.r). 
+## You may also need to run the code in the base R package and not R studio.
 
 library(httr)
 oauth_endpoints("github")
