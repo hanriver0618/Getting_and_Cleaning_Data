@@ -57,7 +57,6 @@ mergedData=merge(data1,data2,by.x="C_Code",by.y="CountryCode")
 new<-arrange(mergedData,desc(Rank))
 
 print(length(mergedData[,"C_Code"]))
-
 print(new[[13,"C_name"]])
 
 
