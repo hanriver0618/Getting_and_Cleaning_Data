@@ -1,13 +1,13 @@
-# Identifier
+## Identifier
 
 "activity" 
 "subject" 
 
-# Measurements
+## Measurements
 Each column value is he average of each variable for each activity and each subject.
 
-*'tBodyAccmeanX'
-*"tBodyAccmeanY" 
+"tBodyAccmeanX"
+"tBodyAccmeanY" 
 "tBodyAccmeanZ" 
 "tBodyAccstdX" 
 "tBodyAccstdY" 
@@ -86,7 +86,7 @@ Each column value is he average of each variable for each activity and each subj
 "fBodyBodyGyroJerkMagstd" 
 "fBodyBodyGyroJerkMagmeanFreq"
 
-# Activity Labels
+## Activity Labels
 1 - WALKING
 2 - WALKING_UPSTAIRS
 3 - WALKING_DOWNSTAIRS
