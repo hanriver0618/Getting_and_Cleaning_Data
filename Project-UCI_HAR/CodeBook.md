@@ -6,7 +6,8 @@
 # Measurements
 Each column value is he average of each variable for each activity and each subject.
 
-*"tBodyAccmeanX" 
+*'tBodyAccmeanX'
+
 *"tBodyAccmeanY" 
 "tBodyAccmeanZ" 
 "tBodyAccstdX" 
