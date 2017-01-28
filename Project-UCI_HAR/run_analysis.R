@@ -1,5 +1,4 @@
 ## 1. Merges the training and the test sets to create one data set.
-
 x_test<-read.table("./test/X_test.txt")
 x_train<-read.table("./train/X_train.txt")
 
@@ -32,6 +31,7 @@ temp<-gsub("-","",feature$V2[index])
 names(x)<-gsub("[][!#$%()*,.:;<=>@^_`|~.{}]", "", temp)
 names(y)<-c("activity")
 names(subject)<-c("subject")
+
 ## 5. From the data set in step 4, creates a second, independent tidy 
 ## data set with the average of each variable for each activity and each subject.
 total<-cbind(y,subject,x)
