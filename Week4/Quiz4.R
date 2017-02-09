@@ -30,7 +30,7 @@ real<-all_content[6:195]
 data=read.csv(textConnection(real),header=FALSE)
 
 library(plyr)
-data<-rename(data,c("V1"="C_Code","V2"="Rank","V4"="countryNamee","V5"="GPD"))
+data<-rename(data,c("V1"="C_Code","V2"="Rank","V4"="countryNames","V5"="GPD"))
 data<-subset(data,select=c(1,2,4,5))
 data$GPD<-as.character(data$GPD)
 data$GPD<-as.numeric(gsub(",","",data$GPD))
