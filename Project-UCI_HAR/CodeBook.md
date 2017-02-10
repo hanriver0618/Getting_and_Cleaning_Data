@@ -5,7 +5,7 @@
 "subject" 
 
 ## Measurements
-Each column value is he average of each variable for each activity and each subject.
+Each column value is the average of each variable for each activity and each subject.
 
 "tBodyAccmeanX"
 
