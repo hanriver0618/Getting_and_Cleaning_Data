@@ -17,4 +17,4 @@ To do:
 
 I downloaded the zip file and unzip it. 
 run_analysis.R includes all of those abpve 5 processes for cleaning the data set, except downloading the data.
-$tidy.txt$ is final tidy data that can be used for laster analysis.
+*tidy.txt* is final tidy data that can be used for laster analysis.
